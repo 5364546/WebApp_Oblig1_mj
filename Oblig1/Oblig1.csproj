@@ -32,18 +32,4 @@
     <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Remove="MJ.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="MJ.cshtml">
-      <Generator>RazorTemplatePreprocessor</Generator>
-      <LastGenOutput>MJ.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="MJ.cs">
-      <DependentUpon>MJ.cshtml</DependentUpon>
-    </Compile>
-  </ItemGroup>
 </Project>
