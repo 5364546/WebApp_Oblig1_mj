@@ -10,6 +10,7 @@
     <Folder Include="Migrations\" />
     <Folder Include="Views\" />
     <Folder Include="wwwroot\Bilder\" />
+    <Folder Include="Views\Home\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,4 +33,7 @@
     <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Home\" />
+  </ItemGroup>
 </Project>
