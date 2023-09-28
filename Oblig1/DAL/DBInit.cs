@@ -22,7 +22,7 @@ namespace Oblig1.DAL
                 var person = new List<Person>
                 {
                     new Person {personID=1,Navn="Mathias",Addresse="Osloveien18",Email="Mathias18@gmail.com",Fodselsdato= new DateTime(1999,5,8),TelefonNmr=14789531 },
-                    new Person {personID=2,Navn="Ole",Addresse="Osloveien20",Email="Osloveien20",Fodselsdato= new DateTime(1996,2,8),TelefonNmr=95632164 }
+                    new Person {personID=2,Navn="Ole",Addresse="Osloveien20",Email="Osloveien20",Fodselsdato= new DateTime(1996,2,8),TelefonNmr=95632164 },
 
 
                 };
@@ -37,7 +37,7 @@ namespace Oblig1.DAL
                 var brukere = new List<Bruker>
                 {
                    new Bruker {personID=1,Navn="Mathias",Addresse="Osloveien18",Email="Mathias18@gmail.com",Fodselsdato= new DateTime(1999,5,8),TelefonNmr=14789531,Passord="hei123",erAdmin=false,erEier=true,}
-                     };
+                };
 
                 context.AddRange(brukere);
                 context.SaveChanges();
