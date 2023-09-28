@@ -50,7 +50,7 @@ namespace Oblig1.DAL
                 var kunder = new List<Kunde>
                 {
 
-                  new Kunde{personID=2,Navn="Ole",Addresse="Osloveien20",Email="Ole20@gmail.com",Fodselsdato= new DateTime(1996,2,8),TelefonNmr=95632164,kundeId=1 }
+                  
                 };
 
 
